@@ -47,7 +47,9 @@ nav {
   }
   
   nav h2 {
-    padding: 2%;
+    margin-left: 5px;
+    padding: 1%;
+    border-style: solid;
   }
   
   nav > div:first-of-type {
@@ -181,7 +183,7 @@ margin: 5% 0px;
 display: flex;
 align-items: center;
 justify-content: center;
-background-image: url(../media/01_slider-01.jpg);
+background-image: url(./assets/01_slider-01.jpg);
 background-size: cover;
 background-position:  center center;
 background-repeat: no-repeat;
@@ -281,7 +283,6 @@ margin-top: 5px;
   font-size: 0.9em;
   color: #555;
 }
-
 
 
 
