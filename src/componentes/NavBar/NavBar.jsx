@@ -1,11 +1,13 @@
+import { CartWidget } from "../CartWidget/CartWidget"
+
 const NavBar = () => {
     return(
         <nav>
             <h2>Prospero Velazco</h2>
-            <div>Nosotros</div>
-            <div>Menu</div>
-            <div>Locales</div>
-            <div><a href=""><i class="fa-solid fa-cart-shopping fa-2x"></i></a></div>
+            <div><a href="">Nosotros</a></div>
+            <div><a href="">Menu</a></div>
+            <div><a href="">Locales</a></div>
+            <CartWidget />
         </nav>
     )
 }
